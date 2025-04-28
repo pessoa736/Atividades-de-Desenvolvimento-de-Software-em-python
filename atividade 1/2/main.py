@@ -11,11 +11,12 @@ def fazerMedia():
     
     return sum
 
-
+nome = input("qual é seu nome????????????????????????????????????????????????????????????????\n")
 addnotas(input("coloque sua primeira nota:\n "))
 addnotas(input("coloque sua segunda nota:\n "))
 addnotas(input("coloque sua terceira nota:\n "))
 addnotas(input("coloque sua quarta nota:\n "))
+
 
 
 media = fazerMedia()
@@ -23,9 +24,9 @@ media = fazerMedia()
 print("sua media foi ", fazerMedia())
 
 
-if media>7: print("vc passou")
-elif media>5: print("ficou em recupeção")
-else: print("foi reprovado")
+if media>70: print(nome,"vc passou")
+elif media>60: print(nome, "ficou em recupeção")
+else: print(nome,"foi reprovado")
 
 
 
