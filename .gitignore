@@ -2,3 +2,5 @@
 
 game*
 env
+.env
+__pycache__/
